@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/mx/algorithm/insertionSort",
-      "program": "d:/mx/algorithm/insertionSort/build/Debug/outDebug",
+      "cwd": "d:/mx/algorithm/nums",
+      "program": "d:/mx/algorithm/nums/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

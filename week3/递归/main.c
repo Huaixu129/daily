@@ -29,14 +29,25 @@
 //     return 0;
 // }
 //辗转相除法
-int gcd(int x,int y){
-    if (x%y==0){
-        return y;
-    }else{
-        return gcd(y,x%y);
-    }
+// int gcd(int x,int y){
+//     if (x%y==0){
+//         return y;
+//     }else{
+//         return gcd(y,x%y);
+//     }
+// }
+// int main() {
+//     printf("%d",gcd(32,24));
+//     return 0;
+// }
+//斐波那契数列
+int fib(int n){
+    if (n==1||n==2)
+        return (n-1);
+    int res = fib(n-2)+fib(n-1);
+    return res;
 }
 int main() {
-    printf("%d",gcd(32,24));
+    printf("%d",fib(5));
     return 0;
 }
