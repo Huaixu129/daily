@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/mx/week3/组合数的和",
-      "program": "d:/mx/week3/组合数的和/build/Debug/outDebug",
+      "cwd": "d:/mx/leetcode/3",
+      "program": "d:/mx/leetcode/3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
@@ -19,17 +19,6 @@
           "ignoreFailures": true
         }
       ]
-    },
-    {
-      "name": "(Windows) 启动",
-      "type": "cppvsdbg",
-      "request": "launch",
-      "program": "输入程序名称，例如 ${workspaceFolder}/a.exe",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "console": "externalTerminal"
     }
   ]
 }
