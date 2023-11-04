@@ -33,8 +33,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/mx/week3/求最小公倍数",
-      "program": "d:/mx/week3/求最小公倍数/build/Debug/outDebug",
+      "cwd": "d:/mx/week3/部分A+B",
+      "program": "d:/mx/week3/部分A+B/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
