@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/mx/algorithm/列表",
-      "program": "d:/mx/algorithm/列表/build/Debug/outDebug",
+      "cwd": "d:/mx/week4",
+      "program": "d:/mx/week4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

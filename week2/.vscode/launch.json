@@ -39,8 +39,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/mx/week2/math库",
-      "program": "d:/mx/week2/math库/build/Debug/outDebug",
+      "cwd": "d:/mx/week2/统计元音（重点了解）",
+      "program": "d:/mx/week2/统计元音（重点了解）/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
