@@ -1,5 +1,6 @@
 #include <limits.h>
 #include <stdio.h>
+#include <stdbool.h>
 #define MAX_SIZE 100
 /* 基于数组实现的栈 */
 typedef struct {
@@ -28,7 +29,7 @@ int size(ArrayStack *stack) {
 }
 
 /* 判断栈是否为空 */
-_Bool isEmpty(ArrayStack *stack) {
+bool isEmpty(ArrayStack *stack) {
     return stack->size == 0;
 }
 

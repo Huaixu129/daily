@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/mx/week4",
-      "program": "d:/mx/week4/build/Debug/outDebug",
+      "cwd": "d:/mx/week4/pta字符统计",
+      "program": "d:/mx/week4/pta字符统计/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

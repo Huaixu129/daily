@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
+#include <stdbool.h>
 typedef struct ListNode{
     int val;               // 节点的序号或者储存的数据
     struct ListNode *next; // 指向下一节点的指针
@@ -37,7 +38,7 @@ int size(LinkedListStack *s) {
 }
 
 /* 判断栈是否为空 */
-_Bool isEmpty(LinkedListStack *s) {
+bool isEmpty(LinkedListStack *s) {
     assert(s);
     return size(s) == 0;
 }
