@@ -14,32 +14,34 @@ Sample Output
 -3 2 1 0
 */
 #include <stdio.h>
-int main()
-{
-    int n,m,k,v=0;int i = 0;
-    printf("please input a (+)integer :\n");
-    scanf("%d",&n);
-    int nums[n],Nums[n];
-    nums[0]=n,Nums[0]=n;
-    do {
-        int s=0;
-        i++;
-        printf("please input a integer :\n");
-        scanf("%d",&m);
-        Nums[i]=m;
-        s=m>0?m:-m;
-        nums[i]=s;
-    }while(i<n);
-    for (k=1;k<=n-1;k++){
-        for (v=0;v<n-k;v++){
-            if (nums[v]<nums[v+1]){
-                int t =nums[v];nums[v]=nums[v+1];nums[v+1]=t;
-                int h =Nums[v];Nums[v]=Nums[v+1];Nums[v+1]=h;
+int absoluteValue(int num){
+    num = num>=0?num:-num;
+    return num;
+}
+void swap(int A,int B){
+    int temp = A;
+    A = B;
+    B = temp;
+}
+int main() {
+    int n;
+    while(scanf("%d",&n)!=EOF&&n!=0){
+        int inputNums[n];
+        for(int i=0;i<n;i++){
+            scanf("%d",&inputNums[i]);
+        }
+        
+        for(int i=0;i<n-1;i++){
+            for (int j=0;j<n-i-1;j++){
+                if (absoluteValue(inputNums[j])<absoluteValue(inputNums[j+1])){
+                    swap(inputNums[j],inputNums[j+1]);
+                }
             }
         }
-    }
-    for (i=0;i<n;i++){
-        printf("%d ",Nums[i]);
+        for (int i=0;i<n;i++){
+            printf("%d ",inputNums[i]);
+        }
+        printf("\n");
     }
     return 0;
 }

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/mx/algorithm/栈/基于链表",
-      "program": "d:/mx/algorithm/栈/基于链表/build/Debug/outDebug",
+      "cwd": "d:/mx/algorithm/行列式计算器",
+      "program": "d:/mx/algorithm/行列式计算器/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

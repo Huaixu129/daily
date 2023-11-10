@@ -1,7 +1,4 @@
 #include <stdio.h>
-
-#include <stdio.h>
-
 // 函数将整数转换为二进制表示
 void intToBinary(int num) {
     if (num == 0) {

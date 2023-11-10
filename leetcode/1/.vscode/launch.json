@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/mx/week4/test",
-      "program": "d:/mx/week4/test/build/Debug/outDebug",
+      "cwd": "d:/mx/leetcode/1",
+      "program": "d:/mx/leetcode/1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
